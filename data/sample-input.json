@@ -1,0 +1,12 @@
+{
+  "searches": [
+    {
+      "keyword": "software engineer",
+      "location": "Bengaluru"
+    }
+  ],
+  "maxJobs": 5,
+  "sort": "relevance",
+  "includeDetails": true,
+  "includeCompanyDetails": true
+}

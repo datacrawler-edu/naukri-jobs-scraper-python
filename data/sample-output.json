@@ -1,0 +1,21 @@
+[
+  {
+    "recordType": "job",
+    "jobId": "261026005898",
+    "title": "Software Engineer",
+    "companyName": "Qualcomm",
+    "location": "Bengaluru",
+    "experience": "0-1 Yrs",
+    "salary": "17-32 Lacs",
+    "skills": [
+      "C++",
+      "Python"
+    ],
+    "jobUrl": "https://www.naukri.com/job-listings-software-engineer-qualcomm-bengaluru-0-to-1-years-261026005898",
+    "searchKeyword": "software engineer",
+    "searchLocation": "Bengaluru",
+    "searchPage": 1,
+    "detailStatus": "complete",
+    "scrapedAt": "2026-10-26T14:40:59.301405+00:00"
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "repository": {
+    "name": "naukri-jobs-scraper-python",
+    "description": "Naukri jobs API examples for Python, JavaScript and cURL. Search India jobs by keyword and city, combine searches and export existing results to CSV.",
+    "homepage": "https://apify.com/datascraperes/naukri-jobs-scraper?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "Naukri Jobs Scraper",
+    "id": "datascraperes/naukri-jobs-scraper",
+    "storeUrl": "https://apify.com/datascraperes/naukri-jobs-scraper",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~naukri-jobs-scraper",
+    "description": "Collect public India job listings with job details and company data from keyword and location searches."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/naukri-jobs-scraper?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "searches",
+      "inputLabel": "Job searches",
+      "inputSummary": "Enter a role or skill and an optional Indian city; add more search entries when needed.",
+      "exportFormats": [
+        "JSON",
+        "CSV",
+        "Excel"
+      ]
+    },
+    "api": {
+      "enabled": true,
+      "examples": [
+        "cURL",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "Naukri jobs scraper Python",
+    "secondaryKeywords": [
+      "Naukri jobs API examples",
+      "Naukri jobs CSV export",
+      "India job search Python"
+    ],
+    "topics": [
+      "naukri",
+      "jobs",
+      "job-search",
+      "apify",
+      "python",
+      "api-examples",
+      "csv-export"
+    ],
+    "longTailIntents": [
+      "Search Naukri jobs by keyword and city with Python",
+      "Collect jobs across multiple Indian cities in one run",
+      "Export an existing Naukri jobs Dataset to CSV"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/collect_jobs.py",
+      "examples/python/batch_searches.py",
+      "examples/python/export_jobs_csv.py"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "Pay per unique job delivered; rates depend on your Apify tier.",
+    "unit": "one unique job delivered",
+    "price": "$0.75-$1.00 per 1,000 job results, depending on Apify tier"
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/naukri-jobs-scraper-python",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/naukri-jobs-scraper-python",
+    "githubToActorUrl": "https://apify.com/datascraperes/naukri-jobs-scraper?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v0.1.0",
+      "title": "Naukri job search API and CSV examples"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": [
+      "views",
+      "uniqueVisitors",
+      "clones",
+      "referrers",
+      "popularContent"
+    ],
+    "apifySignals": [
+      "users",
+      "runs",
+      "datasetItems",
+      "revenue"
+    ],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/naukri-jobs-scraper-python",
+      "Naukri jobs scraper Python"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/naukri-jobs-scraper-python/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/naukri-jobs-scraper?fpr=edudata"
+  }
+}
